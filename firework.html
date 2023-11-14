@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firework Effect</title>
+  <link rel="stylesheet" href="firework.css">
+  <script>
+    window.onload = function() {
+  const fireworks = document.querySelectorAll('.firework');
+
+  fireworks.forEach(firework => {
+    firework.style.top = Math.random() * 90 + 'vh';
+    firework.style.left = Math.random() * 90 + 'vw';
+  });
+};
+
+  </script>
+</head>
+<body>
+ 
+<div class="firework firework1"></div>
+  <div class="firework firework2"></div>
+  <div class="firework firework3"></div>
+  <div class="firework firework4"></div>
+  <div class="firework firework6"></div>
+  <div class="firework firework7"></div>
+  <div class="firework firework8"></div>
+  <div class="firework firework9"></div>
+  <div class="firework firework10"></div>
+  
+  
+</body>
+</html>
